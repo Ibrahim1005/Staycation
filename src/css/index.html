@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Staycation</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-Poppins">
+    <!-- navbar section -->
+    <header class="border-[1px] border-black md:px-0 px-4">
+      <nav class="wrapper flex justify-between py-4">
+        <div class="">
+          <img src="../images/Staycation..svg" alt="Staycation" />
+        </div>
+        <div class="md:block hidden">
+          <ul
+            class="flex items-center font-normal text-base gap-5 text-primary"
+          >
+            <li>
+              <a href="#" class="text-[#3252DF]">Home</a>
+            </li>
+            <li>
+              <a href="#">Browse by</a>
+            </li>
+            <li>
+              <a href="#">Stories</a>
+            </li>
+            <li>
+              <a href="#">Agents</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="md:hidden block">
+          <img src="../images/menu-bar.svg" alt="menu-bar">
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- showcase section -->
+      <section class="wrapper flex md:flex-row flex-col items-center justify-center md:mt-20 mt-10 md:gap-20 gap-10 md:space-y-0 space-y-5">
+        <div class="w-full max-w-[514px] space-y-10 md:px-0 px-4">
+          <h1 class="font-bold text-[2.625rem] leading-[63px] text-primary">
+            Forget Your Main Work, Start Holiday Now!
+          </h1>
+          <p class="paragraph">
+            We provide you what you need to enjoy your holiday with family. Time
+            to make another memorable moments.
+          </p>
+          <div>
+            <button class="btn">Show Me Now</button>
+          </div>
+
+          <div class="w-full max-w-[464px] flex items-center !mt-20 gap-8">
+            <div class="flex flex-col">
+              <img
+                src="../images/ic_traveler.svg"
+                alt="ic_traveler"
+                class="w-[32px] h-[32px]"
+              />
+              <div class="flex gap-2">
+                <span
+                  class="font-medium text-[1.125rem] leading-[30.6px] text-primary"
+                  >80,409</span
+                >
+                <p class="paragraph">travelers</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <img
+                src="../images/ic_cities.svg"
+                alt="cities"
+                class="w-[32px] h-[32px]"
+              />
+              <div class="flex gap-2">
+                <span
+                  class="font-medium text-[1.125rem] leading-[30.6px] text-primary"
+                  >1,492</span
+                >
+                <p class="paragraph">cities</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <img
+                src="../images/treasures.svg"
+                alt="treasures"
+                class="w-[32px] h-[32px]"
+              />
+              <div class="flex gap-2">
+                <span
+                  class="font-medium text-[1.125rem] leading-[30.6px] text-primary"
+                  >862</span
+                >
+                <p class="paragraph">treasures</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="../images/showcase-img.svg" alt="showcase-img" />
+        </div>
+      </section>
+
+      <!-- Most Picked section -->
+      <section class="wrapper py-10 md:px-0 px-5">
+        <h1 class="text-[1.5rem] leading-[36px] font-medium text-primary mb-6">
+          Most Picked
+        </h1>
+
+        <div class="flex flex-wrap gap-4 ">
+          <div class="relative w-full md:max-w-[360px]">
+            <img
+              src="../images/finns-beach.svg"
+              alt="Finns Beach Club"
+              class="rounded-lg w-full h-auto"
+            />
+            <div
+              class="bg-secondary-200 absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl w-[180px] h-[40px] p-2 flex items-center justify-center"
+            >
+              <p class="text-lg leading-[30.6px] font-bold text-white">
+                $50
+                <span class="text-lg leading-[30.6px] font-light"
+                  >per night</span
+                >
+              </p>
+            </div>
+            <div class="absolute bottom-4 left-4">
+              <h4 class="text-xl leading-[30px] font-medium text-primary">
+                Finns Beach Club
+              </h4>
+              <p
+                class="text-[0.938rem] leading-[22.5px] font-light text-primary"
+              >
+                Denpasar, Bali
+              </p>
+            </div>
+          </div>
+
+          <!-- right cards -->
+          <div class="grid grid-cols-2 gap-4 w-full max-w-[720px]">
+            <!-- Card 1 -->
+            <div class="relative w-full">
+              <img
+                src="../images/montigo-beach.svg"
+                alt="Montigo Resort"
+                class="rounded-2xl w-full h-[215px] object-cover"
+              />
+              <div
+                class="absolute top-0 right-0 bg-secondary-200 rounded-tr-2xl rounded-bl-2xl w-[180px] h-[40px] p-2 flex items-center justify-center"
+              >
+                <p class="text-lg leading-[30.6px] font-bold text-white">
+                  $50 <span class="font-light">per night</span>
+                </p>
+              </div>
+              <div class="absolute bottom-4 left-4">
+                <h4 class="text-xl leading-[30px] font-medium text-primary">
+                  Montigo Resort
+                </h4>
+                <p
+                  class="text-[0.938rem] leading-[22.5px] font-light text-primary"
+                >
+                  Rio de Janeiro, Brazil
+                </p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="relative w-full">
+              <img
+                src="../images/montana-bay.svg"
+                alt="Montana Bay"
+                class="rounded-2xl w-full h-[215px] object-cover"
+              />
+              <div
+                class="absolute top-0 right-0 bg-secondary-200 rounded-tr-2xl rounded-bl-2xl w-[180px] h-[40px] p-2 flex items-center justify-center"
+              >
+                <p class="text-lg leading-[30.6px] font-bold text-white">
+                  $22 <span class="font-light">per night</span>
+                </p>
+              </div>
+              <div class="absolute bottom-4 left-4">
+                <h4 class="text-xl leading-[30px] font-medium text-primary">
+                  Montana Bay
+                </h4>
+                <p
+                  class="text-[0.938rem] leading-[22.5px] font-light text-primary"
+                >
+                  Berlin, Germany
+                </p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="relative w-full">
+              <img
+                src="../images/kalpa-tree.svg"
+                alt="Kalpa Tree"
+                class="rounded-2xl w-full h-[215px] object-cover"
+              />
+              <div
+                class="absolute top-0 right-0 bg-secondary-200 rounded-tr-2xl rounded-bl-2xl w-[180px] h-[40px] p-2 flex items-center justify-center"
+              >
+                <p class="text-lg leading-[30.6px] font-bold text-white">
+                  $858 <span class="font-light">per night</span>
+                </p>
+              </div>
+              <div class="absolute bottom-4 left-4">
+                <h4 class="text-xl leading-[30px] font-medium text-primary">
+                  Kalpa Tree
+                </h4>
+                <p
+                  class="text-[0.938rem] leading-[22.5px] font-light text-primary"
+                >
+                  Ternate, Nusa Tenggara Barat
+                </p>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="relative w-full">
+              <img
+                src="../images/caesar-palace.svg"
+                alt="Caesar Palace"
+                class="rounded-2xl w-full h-[215px] object-cover"
+              />
+              <div
+                class="absolute top-0 right-0 bg-secondary-200 rounded-tr-2xl rounded-bl-2xl w-[180px] h-[40px] p-2 flex items-center justify-center"
+              >
+                <p class="text-lg leading-[30.6px] font-bold text-white">
+                  $72 <span class="font-light">per night</span>
+                </p>
+              </div>
+              <div class="absolute bottom-4 left-4">
+                <h4 class="text-xl leading-[30px] font-medium text-primary">
+                  Caesar Palace
+                </h4>
+                <p
+                  class="text-[0.938rem] leading-[22.5px] font-light text-primary"
+                >
+                  Las Vegas, America
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Houses with backyard -->
+     <section class="wrapper mt-10 space-y-2 md:px-0 px-4">
+        <div>
+          <h1 class="font-medium text-[1.5rem] leading-[36px] text-primary">
+            Houses with backyard
+          </h1>
+        </div>
+
+      <div class="gap-5 grid md:grid-cols-4 grid-cols-2">
+        <div class="relative w-full max-w-[263px] space-y-3">
+          <img
+            src="../images/caesar-palace.svg"
+            alt="Caesar Palace"
+            class="rounded-2xl w-full h-[180px] object-cover"
+          />
+          <div
+            class="absolute top-[-12px] right-0 bg-secondary-200 rounded-tr-2xl rounded-bl-2xl w-[180px] h-[40px] p-2 flex items-center justify-center"
+          >
+            <p class="text-lg leading-[30.6px] font-bold text-white">
+              Popular <span class="font-light">Choice</span>
+            </p>
+          </div>
+          
+          <div class="flex flex-col">
+            <h4
+              class="font-medium text-[1.25rem] leading-[30px] text-primary"
+            >
+            Tabby Town
+            </h4>
+            <p
+              class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+            >
+            Gunug Batu, Indonesia
+            </p>
+          </div>
+        </div>
+
+          <div class="flex flex-col space-y-3 w-full max-w-[263px]">
+            <img src="../images/anggona.svg" alt="tobby-town" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Anggana
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Bogor, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3 w-full max-w-[263px]">
+            <img src="../images/seatle.svg" alt="tobby-town" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Seattle Rain
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Jakarta, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3 w-full max-w-[263px]">
+            <img src="../images/wooden.svg" alt="tobby-town" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Wooden Pit
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Wonosobo, Indonesia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Hotels with living room -->
+      <section class="wrapper mt-10 space-y-2 md:px-0 px-4">
+        <div>
+          <h1 class="font-medium text-[1.5rem] leading-[36px] text-primary">
+            Hotels with living room
+          </h1>
+        </div>
+
+        <div class="gap-7 grid md:grid-cols-4 grid-cols-2">
+          <div class="flex flex-col space-y-3">
+            <img src="../images/green-park.svg" alt="Green" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Green Park
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Tangerang, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3">
+            <img src="../images/podo-wae.svg" alt="podo-wae" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Podo Wae
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Madiun, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3">
+            <img src="../images/silver-rain.svg" alt="silver-rain" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Silver Rain
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Bandung, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3">
+            <img src="../images/cashville.svg" alt="cashville" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Cashville
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Kemang, Indonesia
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Apartement with kitchen -->
+      <section class="wrapper mt-10 space-y-2 md:px-0 px-4">
+        <div>
+          <h1 class="font-medium text-[1.5rem] leading-[36px] text-primary">
+            Apartement with kitchen
+          </h1>
+        </div>
+
+        <div class="gap-7 grid md:grid-cols-4 grid-cols-2">
+          <div class="flex flex-col space-y-3">
+            <img src="../images/ps-wood.svg" alt="PS Wood" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                PS Wood
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Depok, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3">
+            <img src="../images/one-five.svg" alt="pOne Five" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                One Five
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Jakarta, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3">
+            <img src="../images/minimal.svg" alt="minimal" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Minimal
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Bogor, Indonesia
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-col space-y-3">
+            <img src="../images/stays-home.svg" alt="Stays Home" />
+            <div class="flex flex-col">
+              <h4
+                class="font-medium text-[1.25rem] leading-[30px] text-primary"
+              >
+                Stays Home
+              </h4>
+              <p
+                class="font-light text-[0.939rem] leading-[22.5px] text-secondary"
+              >
+                Wonosobo,Indonesia
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- happy family -->
+      <section class="wrapper flex gap-10 mt-20 justify-center md:px-0 px-4">
+        <div>
+          <img src="../images/happy-family.svg" alt="happy-family" />
+        </div>
+
+        <div
+          class="flex flex-col items-cente justify-center space-y-5 w-full max-w-[615px]"
+        >
+          <h2 class="font-medium text-[1.5rem] leading-[36px] text-primary">
+            Happy Famiy
+          </h2>
+          <div>
+            <img src="../images/star.svg" alt="star" class="mt-7" />
+          </div>
+          <h2 class="font-normal text-[2rem] leading-[48px] text-primary">
+            What a great trip with my family and I should try again next time
+            soon ...
+          </h2>
+          <p class="font-light text-lg text-primary">Adi, UI/UX Designer</p>
+          <div>
+            <button class="btn">Read Our Stories</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="wrapper md:px-0 px-4">
+        <section class="flex justify-start space-x-5 my-20">
+          <div class="w-full max-w-[292px] space-y-3">
+            <img src="../images/Staycation..svg" alt="Staycation" />
+            <p class="font-light text-[1.125rem] leading-[27px] text-primary">
+              We kaboom your beauty holiday instantly and memorable.
+            </p>
+          </div>
+
+          <div class="flex gap-10">
+            <div class="space-y-3">
+              <h4 class="text-primary text-[1.125rem] leading-[27px]">
+                For Beginners
+              </h4>
+              <ul class="text-secondary font-light text-base space-y-3">
+                <li>
+                  <a href="#">New Account</a>
+                </li>
+                <li>
+                  <a href="#">Book a Room</a>
+                </li>
+                <li>
+                  <a href="#">Payments</a>
+                </li>
+              </ul>
+            </div>
+            <div class="space-y-3">
+              <h4 class="text-primary text-[1.125rem] leading-[27px]">
+                Explore Us
+              </h4>
+              <ul class="text-secondary font-light text-base space-y-3">
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="space-y-3">
+              <h4 class="text-primary text-[1.125rem] leading-[27px]">
+                Getting Touch
+              </h4>
+              <ul class="text-secondary font-light text-base space-y-3">
+                <li>
+                  <a href="#">support@stayctation.id</a>
+                </li>
+                <li>
+                  <a href="#">021 - 2208 - 1996</a>
+                </li>
+                <li>
+                  <a href="#">Staycation Oy, Jakarta</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <div class="flex justify-center my-10">
+          <h3 class="font-light text-secondary text-[1.125rem] leading-[27px]">
+            Copyright 2019 . All rights reserved . Staycation
+          </h3>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

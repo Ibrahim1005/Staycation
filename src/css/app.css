@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    @apply container w-full md:max-w-[1141px] mx-auto;
+}
+.btn {
+    @apply bg-[#3252df] text-white text-lg border-none outline-none py-2 px-6 rounded-[4px];
+}
+.paragraph {
+    @apply font-light text-[1.125rem] leading-[30.6px] text-secondary;
+}
