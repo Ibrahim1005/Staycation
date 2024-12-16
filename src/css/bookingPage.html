@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-Poppins">
+    <!-- header -->
+    <header class="border-[1px] border-black md:px-0 px-4">
+      <nav class="wrapper flex justify-center py-4">
+        <img src="../images/Staycation..svg" alt="stayctation" />
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrapper flex flex-col items-center pt-20">
+        <div class="flex">
+          <div class="flex items-center gap-10">
+            <div
+              class="rounded-full border-[1px] w-[60px] h-[60px] border-secondary-300 flex justify-center items-center"
+            >
+              <div
+                class="rounded-full bg-secondary-300 w-[50px] h-[50px] flex items-center justify-center"
+              >
+                <h1 class="font-medium text-[1.5rem] text-[#898989]">1</h1>
+              </div>
+            </div>
+            <div class="h-1 bg-secondary-300 flex-1"></div>
+            <div>
+              <div
+                class="rounded-full bg-secondary-300 w-[50px] h-[50px] flex items-center justify-center"
+              >
+                <h1 class="font-medium text-[1.5rem] text-[#898989]">2</h1>
+              </div>
+            </div>
+            <div></div>
+            <div>
+              <div
+                class="rounded-full bg-secondary-300 w-[50px] h-[50px] flex items-center justify-center"
+              >
+                <h1 class="font-medium text-[1.5rem] text-[#898989]">3</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-20 text-center">
+          <h1 class="font-semibold text-[2.625rem] leading-[63px] text-primary">
+            Booking Information
+          </h1>
+          <p class="font-light text-[1.125rem] leading-[27px] text-secondary">
+            Please fill up the blanks field below
+          </p>
+        </div>
+
+        <section class="grid grid-cols-2 gap-20 mt-20">
+          <div class="space-y-3">
+            <img src="../images/cashville-2.svg" alt="cashville" />
+            <div class="flex justify-between">
+              <div>
+                <h1
+                  class="font-medium text-[1.25rem] leading-[30px] text-primary"
+                >
+                  Cashville
+                </h1>
+                <p
+                  class="font-light text-[0.938rem] leading-[22.5px] text-secondary"
+                >
+                  Kemang, Indonesia
+                </p>
+              </div>
+              <div>
+                <h2
+                  class="font-light text-[1.125rem] leading-[30.6px] text-secondary"
+                >
+                  <span class="text-primary font-medium">$480 USD</span> for
+                  <span class="text-primary font-medium">2 night</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-7">
+            <div class="flex flex-col gap-4 font-normal">
+              <label for="#" class="text-[1.125rem] leading-[0.6px] ">First Name</label>
+              <input
+                type="text"
+                placeholder=""
+                class="w-[320px] h-[51.56px] bg-[#F5F6F8] rounded-[4px] outline-none px-3"
+              />
+            </div>
+            <div class="flex flex-col gap-4 font-normal">
+              <label for="#" class="text-[1.125rem] leading-[0.6px] ">Last Name</label>
+              <input
+                type="text"
+                placeholder=""
+                class="w-[320px] h-[51.56px] bg-[#F5F6F8] rounded-[4px] outline-none px-3"
+              />
+            </div>
+            <div class="flex flex-col gap-4 font-normal">
+              <label for="#" class="text-[1.125rem] leading-[0.6px] ">Email Address</label>
+              <input
+                type="text"
+                placeholder=""
+                class="w-[320px] h-[51.56px] bg-[#F5F6F8] rounded-[4px] outline-none px-3"
+              />
+            </div>
+            <div class="flex flex-col gap-4 font-normal">
+              <label for="#" class="text-[1.125rem] leading-[0.6px] ">Phone Number</label>
+              <input
+                type="text"
+                placeholder=""
+                class="w-[320px] h-[51.56px] bg-[#F5F6F8] rounded-[4px] outline-none px-3"
+              />
+            </div>
+          </div>
+        </section>
+
+        <div class="mt-20 flex flex-col gap-3 mb-20">
+            <button class="btn ">Continue to Book</button>
+            <button class="btn !bg-[#F5F6F8] !text-[#B2B2B2]">Cancel</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
