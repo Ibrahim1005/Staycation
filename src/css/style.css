@@ -620,6 +620,10 @@ video {
   margin-left: 1.25rem;
 }
 
+.mr-\[47rem\] {
+  margin-right: 47rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -638,50 +642,6 @@ video {
 
 .mt-\[5rem\] {
   margin-top: 5rem;
-}
-
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
-.mr-\[30rem\] {
-  margin-right: 30rem;
-}
-
-.mr-\[40rem\] {
-  margin-right: 40rem;
-}
-
-.mr-\[50rem\] {
-  margin-right: 50rem;
-}
-
-.mr-\[45rem\] {
-  margin-right: 45rem;
-}
-
-.mr-\[47rem\] {
-  margin-right: 47rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.\!mt-5 {
-  margin-top: 1.25rem !important;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.\!mt-0 {
-  margin-top: 0px !important;
-}
-
-.mr-0 {
-  margin-right: 0px;
 }
 
 .block {
@@ -780,6 +740,10 @@ video {
   max-width: 320px;
 }
 
+.max-w-\[382px\] {
+  max-width: 382px;
+}
+
 .max-w-\[464px\] {
   max-width: 464px;
 }
@@ -814,10 +778,6 @@ video {
 
 .max-w-\[731px\] {
   max-width: 731px;
-}
-
-.max-w-\[382px\] {
-  max-width: 382px;
 }
 
 .grid-cols-2 {
@@ -908,6 +868,12 @@ video {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-14 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -920,6 +886,12 @@ video {
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -930,30 +902,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
-.space-y-20 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
-}
-
-.-space-y-14 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(-3.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(-3.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-14 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
 }
 
 .rounded-2xl {
@@ -1140,6 +1088,10 @@ video {
   line-height: 1.75rem;
 }
 
+.\!font-normal {
+  font-weight: 400 !important;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1158,10 +1110,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.\!font-normal {
-  font-weight: 400 !important;
 }
 
 .leading-\[0\.6px\] {
@@ -1218,6 +1166,11 @@ video {
   color: rgb(178 178 178 / var(--tw-text-opacity, 1)) !important;
 }
 
+.\!text-black {
+  --tw-text-opacity: 1 !important;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1)) !important;
+}
+
 .text-\[\#1ABC9C\] {
   --tw-text-opacity: 1;
   color: rgb(26 188 156 / var(--tw-text-opacity, 1));
@@ -1233,6 +1186,11 @@ video {
   color: rgb(137 137 137 / var(--tw-text-opacity, 1));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(21 44 91 / var(--tw-text-opacity, 1));
@@ -1246,25 +1204,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#000000\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
-.\!text-black {
-  --tw-text-opacity: 1 !important;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1)) !important;
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .outline-none {
